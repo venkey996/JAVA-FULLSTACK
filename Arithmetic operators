@@ -1,0 +1,14 @@
+class Main {
+    public static void main(String[] args) {
+        int age = 19;
+        double cgpa = 7.2;
+        long height = 183;
+        float weight = 60;
+        System.out.println(age + age);
+        System.out.println(height - weight);
+        System.out.println(cgpa * age);
+        System.out.println(height / age);
+        System.out.println(++age);
+        System.out.println(--weight);
+    }
+}
