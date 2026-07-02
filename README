@@ -140,3 +140,29 @@ Step	Digit Extracted	Sum
 4	1	10
 
 Final Sum = 10
+
+
+A Calculator is a program that performs basic mathematical operations such as addition, subtraction, multiplication, and division on two or more numbers entered by the user. It takes input values, applies the selected arithmetic operation using operators, and displays the result.
+
+The calculator concept helps in understanding:
+
+Variables for storing numbers and results.
+Data Types such as int, float, or double.
+Arithmetic Operators (+, -, *, /, %) for calculations.
+Conditional Statements (if-else or switch) to choose the operation.
+User Input to receive values from the user.
+Working Principle
+Accept numbers from the user.
+Accept the desired operation (+, -, *, /, %).
+Perform the selected operation.
+Display the calculated result.
+Applications
+Basic mathematical calculations.
+Educational and learning purposes.
+Financial and scientific computations.
+Used as a foundation for advanced calculator applications.
+Example
+Input: Number1 = 10, Number2 = 5, Operation = +
+Output: 15
+Input: Number1 = 20, Number2 = 4, Operation = /
+Output: 5
