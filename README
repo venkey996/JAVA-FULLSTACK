@@ -9,6 +9,9 @@ Variables store data temporarily in memory.
 The value of a variable can change during execution.
 Every variable must have a valid name and a data type.
 Variables improve code readability and reusability.
+
+
+
 2. Data Types
 
 Concept:
@@ -28,6 +31,8 @@ Importance of Data Types:
 Ensures efficient memory usage.
 Helps prevent errors during program execution.
 Determines the operations that can be performed on data.
+
+
 3. Type Casting
 
 Concept:
@@ -49,6 +54,9 @@ Benefits of Type Casting:
 Enables mixed-type calculations.
 Improves flexibility in programming.
 Allows data to be converted into the required format.
+
+
+
 4. Operators
 
 Concept:
@@ -74,8 +82,9 @@ Perform operations on individual bits of data.
 Conditional (Ternary) Operator
 Used as a shorthand form of an if-else statement.
 
+                                                        DAY 2
 
-1. Odd or Even Checker
+                                                1. Odd or Even Checker
 
 Concept:
 
@@ -101,7 +110,8 @@ Number = 8 → 8 % 2 = 0 → Even
 Number = 7 → 7 % 2 = 1 → Odd
 
 
-2. Digit Sum Checker
+
+                                                                2. Digit Sum Checker
 
 Concept:
 
@@ -142,6 +152,10 @@ Step	Digit Extracted	Sum
 Final Sum = 10
 
 
+
+                                                   3. Calculator
+
+
 A Calculator is a program that performs basic mathematical operations such as addition, subtraction, multiplication, and division on two or more numbers entered by the user. It takes input values, applies the selected arithmetic operation using operators, and displays the result.
 
 The calculator concept helps in understanding:
@@ -167,7 +181,12 @@ Output: 15
 Input: Number1 = 20, Number2 = 4, Operation = /
 Output: 5
 
-Conditional Statements (if, else if, else)
+
+
+
+                                           4. Conditional Statements 
+
+(if, else if, else)
 
 Conditional statements are used to make decisions in a program based on whether a condition is true or false.
 
@@ -189,3 +208,7 @@ if checks if both the email and password are correct.
 else if checks if the email is incorrect.
 else if checks if the password is incorrect.
 else executes if none of the above conditions are met.
+
+
+
+
