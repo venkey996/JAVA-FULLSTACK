@@ -1,0 +1,17 @@
+public class VariablesDemo {
+    public static void main(String[] args) {
+        int studentId = 101;
+        String studentName = "Nanda";
+        double marks = 87.5;
+        char grade = 'A';
+        System.out.println("Student ID: " + studentId);
+        System.out.println("Student Name: " + studentName);
+        System.out.println("Marks: " + marks);
+        System.out.println("Grade: " + grade);
+        marks = marks + 5;
+        grade = 'O';      
+        System.out.println("\nAfter Update:");
+        System.out.println("Marks: " + marks);
+        System.out.println("Grade: " + grade);
+    }
+}
