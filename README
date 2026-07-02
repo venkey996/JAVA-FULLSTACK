@@ -73,3 +73,70 @@ Bitwise Operators
 Perform operations on individual bits of data.
 Conditional (Ternary) Operator
 Used as a shorthand form of an if-else statement.
+
+
+1. Odd or Even Checker
+
+Concept:
+
+An Odd or Even Checker is a program that determines whether a given integer is odd or even. A number is considered even if it is completely divisible by 2, meaning the remainder is 0 when divided by 2. A number is considered odd if it is not completely divisible by 2, meaning the remainder is 1.
+
+This concept uses the modulus operator (%), which returns the remainder after division. The program checks the remainder when the number is divided by 2 and then uses an if-else statement to display the result.
+
+Working Principle:
+
+If number % 2 == 0, the number is even.
+Otherwise, the number is odd.
+
+Applications:
+
+Number classification.
+Mathematical computations.
+Data processing and filtering.
+Algorithm design and problem solving.
+
+Example:
+
+Number = 8 → 8 % 2 = 0 → Even
+Number = 7 → 7 % 2 = 1 → Odd
+
+
+2. Digit Sum Checker
+
+Concept:
+
+A Digit Sum Checker is a program that calculates the sum of all digits present in a number. The program repeatedly extracts each digit from the number, adds it to a running total, and continues until all digits have been processed.
+
+This concept uses:
+
+Variables to store the number and sum.
+Looping statements (while loop) to process each digit.
+Modulus operator (%) to extract the last digit.
+Division operator (/) to remove the last digit from the number.
+
+Working Principle:
+
+Initialize sum as 0.
+Extract the last digit using number % 10.
+Add the extracted digit to sum.
+Remove the last digit using number / 10.
+Repeat until the number becomes 0.
+
+Applications:
+
+Number analysis.
+Digital root calculations.
+Checksum validation.
+Mathematical and programming exercises.
+
+Example:
+
+For Number = 1234
+
+Step	Digit Extracted	Sum
+1	4	4
+2	3	7
+3	2	9
+4	1	10
+
+Final Sum = 10
