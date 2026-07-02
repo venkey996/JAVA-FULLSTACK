@@ -209,7 +209,7 @@ else if checks if the email is incorrect.
 else if checks if the password is incorrect.
 else executes if none of the above conditions are met.
 
-                                             Concept of Comparison Operators
+                                            5. Concept of Comparison Operators
 
 Comparison operators are used to compare two values. They return either:
 
