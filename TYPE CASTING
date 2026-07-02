@@ -1,0 +1,14 @@
+public class TypeCastingDemo {
+    public static void main(String[] args) {
+        int num = 100;
+        double doubleNum = num;
+        System.out.println("Implicit Type Casting:");
+        System.out.println("Integer value: " + num);
+        System.out.println("Converted to Double: " + doubleNum);
+        double marks = 89.75;
+        int intMarks = (int) marks;
+        System.out.println("\nExplicit Type Casting:");
+        System.out.println("Double value: " + marks);
+        System.out.println("Converted to Integer: " + intMarks);
+    }
+}
