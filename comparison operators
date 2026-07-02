@@ -1,0 +1,12 @@
+public class ComparisonDemo {
+    public static void main(String[] args) {
+        int age = 19;
+        int weight = 60;
+        System.out.println("a > b  : " + (age > weight));
+        System.out.println("a < b  : " + (age < weight));
+        System.out.println("a >= 19: " + (age >= 19));
+        System.out.println("a <= b : " + (age <= weight));
+        System.out.println("a == b : " + (age == weight));
+
+    }
+}
