@@ -209,6 +209,108 @@ else if checks if the email is incorrect.
 else if checks if the password is incorrect.
 else executes if none of the above conditions are met.
 
+                                             Concept of Comparison Operators
 
+Comparison operators are used to compare two values. They return either:
+
+true → if the comparison is correct.
+false → if the comparison is incorrect.
+Operator	Meaning	Example
+>	Greater than	10 > 5 → true
+<	Less than	10 < 5 → false
+>=	Greater than or equal to	10 >= 10 → true
+<=	Less than or equal to	10 <= 5 → false
+==	Equal to	10 == 10 → true
+!=	Not equal to	10 != 5 → true
+Explanation of Your Program
+
+Given:
+
+age = 19;
+weight = 60;
+1. age > weight
+19 > 60
+
+Result:
+
+false
+
+Because 19 is not greater than 60.
+
+2. age < weight
+19 < 60
+
+Result:
+
+true
+
+Because 19 is less than 60.
+
+3. age >= 19
+19 >= 19
+
+Result:
+
+true
+
+Because age is equal to 19.
+
+4. age <= weight
+19 <= 60
+
+Result:
+
+true
+
+Because 19 is less than 60.
+
+5. age == weight
+19 == 60
+
+Result:
+
+false
+
+Because 19 and 60 are not equal.
+
+Output
+a > b  : false
+a < b  : true
+a >= 19: true
+a <= b : true
+a == b : false
+Why are comparison operators important?
+
+Comparison operators are mainly used in conditional statements such as:
+
+if
+if-else
+else-if
+switch (indirectly through conditions before the switch)
+
+Example:
+
+int age = 19;
+
+if (age >= 18) {
+    System.out.println("Eligible to vote");
+} else {
+    System.out.println("Not eligible to vote");
+}
+
+Output:
+
+Eligible to vote
+
+Easy way to remember:
+
+> → Greater than
+< → Less than
+>= → Greater than or equal to
+<= → Less than or equal to
+== → Equal to
+!= → Not equal to
+
+                                          
 
 
