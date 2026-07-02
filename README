@@ -1,0 +1,75 @@
+1. Variables
+
+Concept:
+A variable is a named memory location used to store data in a program. It acts as a container that holds information which can be accessed and modified during program execution. Each variable has a name, a data type, and a value. Variables make it possible to store user input, perform calculations, and manage data efficiently.
+
+Key Points:
+
+Variables store data temporarily in memory.
+The value of a variable can change during execution.
+Every variable must have a valid name and a data type.
+Variables improve code readability and reusability.
+2. Data Types
+
+Concept:
+A data type defines the type of value that a variable can store. It tells the computer how much memory to allocate and what operations can be performed on the stored data. Different data types are used for different kinds of information such as numbers, characters, and logical values.
+
+Common Data Types:
+
+Integer (int): Stores whole numbers.
+Float (float): Stores decimal numbers.
+Double (double): Stores larger decimal numbers with higher precision.
+Character (char): Stores a single character.
+Boolean (bool): Stores true or false values.
+String: Stores a sequence of characters (text).
+
+Importance of Data Types:
+
+Ensures efficient memory usage.
+Helps prevent errors during program execution.
+Determines the operations that can be performed on data.
+3. Type Casting
+
+Concept:
+Type casting is the process of converting a value from one data type to another. It is used when a program requires a value in a different data type for calculations or processing. Type casting helps maintain compatibility between different data types.
+
+Types of Type Casting:
+
+Implicit Type Casting (Automatic Conversion):
+Performed automatically by the compiler.
+Converts smaller data types to larger compatible data types.
+No data loss usually occurs.
+Explicit Type Casting (Manual Conversion):
+Performed by the programmer.
+Used when converting larger data types to smaller ones or when a specific conversion is required.
+May result in data loss if the target type cannot store the full value.
+
+Benefits of Type Casting:
+
+Enables mixed-type calculations.
+Improves flexibility in programming.
+Allows data to be converted into the required format.
+4. Operators
+
+Concept:
+Operators are special symbols used to perform operations on variables and values. They are essential for calculations, comparisons, logical decision-making, and data manipulation in programming.
+
+Types of Operators:
+
+Arithmetic Operators
+Used for mathematical calculations.
+Examples: Addition, Subtraction, Multiplication, Division, Modulus.
+Relational (Comparison) Operators
+Used to compare two values.
+Return a true or false result.
+Logical Operators
+Used to combine or evaluate conditions.
+Commonly used in decision-making statements.
+Assignment Operators
+Used to assign values to variables.
+Increment and Decrement Operators
+Used to increase or decrease a variable's value by one.
+Bitwise Operators
+Perform operations on individual bits of data.
+Conditional (Ternary) Operator
+Used as a shorthand form of an if-else statement.
