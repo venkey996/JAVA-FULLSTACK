@@ -1,4 +1,8 @@
-1. Variables
+                                                                  DAY 1
+
+
+
+                                                          1. Variables
 
 Concept:
 A variable is a named memory location used to store data in a program. It acts as a container that holds information which can be accessed and modified during program execution. Each variable has a name, a data type, and a value. Variables make it possible to store user input, perform calculations, and manage data efficiently.
@@ -12,7 +16,7 @@ Variables improve code readability and reusability.
 
 
 
-2. Data Types
+                                                                        2. Data Types
 
 Concept:
 A data type defines the type of value that a variable can store. It tells the computer how much memory to allocate and what operations can be performed on the stored data. Different data types are used for different kinds of information such as numbers, characters, and logical values.
@@ -33,7 +37,7 @@ Helps prevent errors during program execution.
 Determines the operations that can be performed on data.
 
 
-3. Type Casting
+                                                                      3. Type Casting
 
 Concept:
 Type casting is the process of converting a value from one data type to another. It is used when a program requires a value in a different data type for calculations or processing. Type casting helps maintain compatibility between different data types.
@@ -57,7 +61,7 @@ Allows data to be converted into the required format.
 
 
 
-4. Operators
+                                                4. Operators
 
 Concept:
 Operators are special symbols used to perform operations on variables and values. They are essential for calculations, comparisons, logical decision-making, and data manipulation in programming.
@@ -310,7 +314,27 @@ Easy way to remember:
 <= → Less than or equal to
 == → Equal to
 != → Not equal to
+                                                                       DAY 3
 
-                                          
 
 
+
+
+
+                                                            JAVA BULDING MEATHODS
+
+1.charAt()
+
+
+The Concept: How charAt() Looks in Memory
+
+Think of a String in Java as an array of characters. Each letter occupies a specific box, and each box has a number (index) assigned to it starting at 0.
+
+When you call message.charAt(1), Java goes straight to box number 1 and pulls out the character inside it.
+Return Type: It returns a primitive char data type, not a String.
+
+    Performance: It runs in O(1) constant time, meaning it retrieves the character instantly, no matter how long the string is.
+
+    Boundary Guard: Always ensure your index is between 0 and length() - 1 to prevent a StringIndexOutOfBoundsException crash.
+
+2.
