@@ -1,0 +1,46 @@
+public class StringCompareExample {
+    public static void main(String[] args) {
+        String apple = "apple";
+        String banana = "banana";
+
+        System.out.println(apple.compareTo(banana)); 
+        System.out.println(banana.compareTo(apple)); 
+        System.out.println(apple.compareTo("apple"));
+    }
+}
+
+
+
+
+
+
+public class NumberCompareExample {
+    public static void main(String[] args) {
+        Integer num1 = 15;
+        Integer num2 = 25;
+
+        System.out.println(num1.compareTo(num2)); 
+        System.out.println(num2.compareTo(num1)); 
+        System.out.println(num1.compareTo(15));   
+    }
+}
+
+
+
+public class Student implements Comparable<Student> {
+    private String name;
+    private int age;
+    public Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+    @Override
+    public int compareTo(Student other) {
+        return this.age - other.age; 
+    }
+    public static void main(String[] args) {
+        Student s1 = new Student("Alice", 20);
+        Student s2 = new Student("Bob", 22);
+        System.out.println(s1.compareTo(s2)); 
+    }
+}
