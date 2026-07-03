@@ -1,0 +1,31 @@
+public class CharAtExample {
+    public static void main(String[] args) {
+        String language = "Java";
+        char first = language.charAt(0);  
+        char second = language.charAt(1); 
+        char last = language.charAt(language.length() - 1);
+        System.out.println("First letter: " + first);
+        System.out.println("Second letter: " + second);
+        System.out.println("Last letter: " + last);
+    }
+}
+
+
+
+
+
+
+public class CountCharacters {
+    public static void main(String[] args) {
+        String sentence = "banana";
+        char target = 'a';
+        int count = 0;
+        for (int i = 0; i < sentence.length(); i++) {
+            if (sentence.charAt(i) == target) {
+                count++;
+            }
+        }
+
+        System.out.println("The letter '" + target + "' appears " + count + " times.");
+    }
+}
