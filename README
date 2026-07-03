@@ -337,4 +337,25 @@ Return Type: It returns a primitive char data type, not a String.
 
     Boundary Guard: Always ensure your index is between 0 and length() - 1 to prevent a StringIndexOutOfBoundsException crash.
 
-2.
+2.compareTo()
+
+The compareTo() method in Java is a core method used to compare two objects of the same type to determine their ordering (whether one is smaller, equal to, or larger than the other).
+
+It is the foundation for sorting algorithms in Java, such as sorting a list of Strings alphabetically or numbers numerically.
+
+The Concept: The Three Possible OutcomesThe compareTo() method doesn't just return a true/false value. 
+
+It returns an integer (int) based on a subtraction-like concept:$$\text{Result} = \text{This Object} - \text{Other Object}$$
+
+Negative Number (< 0): Meaning this object comes before the other object.
+
+Zero (0): Meaning both objects are equal.
+
+Positive Number (> 0): Meaning this object comes after the other object.
+
+
+Key Takeaways :-
+
+    Case Sensitivity: For Strings, compareTo() is case-sensitive ("Apple" is not equal to "apple"). If you want to ignore case, use compareToIgnoreCase().
+
+    Sorting Arrays/Lists: Methods like Collections.sort(myList) or Arrays.sort(myArray) rely entirely on compareTo() behind the scenes to order items!
