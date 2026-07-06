@@ -358,4 +358,7 @@ Key Takeaways :-
 
     Case Sensitivity: For Strings, compareTo() is case-sensitive ("Apple" is not equal to "apple"). If you want to ignore case, use compareToIgnoreCase().
 
-    Sorting Arrays/Lists: Methods like Collections.sort(myList) or Arrays.sort(myArray) rely entirely on compareTo() behind the scenes to order items!
+    Sorting Arrays/Lists: Methods like Collections.sort(myList) or Arrays.sort(myArray) rely entirely on compareTo() behind the scenes to order items!\
+
+
+
